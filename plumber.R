@@ -15,6 +15,13 @@ function(msg=""){
   list(msg = paste0("The message is: '", msg, "'"))
 }
 
+
+#' Ping to show server is there
+#' @get /ping
+function() {
+  return('')}
+
+
 #* Plot a Histogram
 #* @png
 #* @get /plot
